@@ -1,11 +1,66 @@
-html,
+@import "modern-normalize/modern-normalize.css";
+
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
+  background-color: #121520;
+  color: #e5e7ea;
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e5e7ea;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #262a3c;
+  text-transform: uppercase;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #242837;
+}
+
+th {
+  padding: 9px 11px;
+  text-align: left;
+  border: none;
+  font-weight: 400;
+  font-size: 10px;
+  color: #97a2b6;
+}
+
+td {
+  padding: 9px 11px;
+  text-align: left;
+  border: none;
+  font-size: 13px;
+}
+
+.container {
+  min-width: 768px;
+  max-width: 1280px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }

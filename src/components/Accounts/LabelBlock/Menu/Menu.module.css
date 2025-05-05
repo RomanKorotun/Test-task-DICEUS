@@ -1,0 +1,13 @@
+.content {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .content {
+    margin-bottom: 20px;
+  }
+}
+
+.companyAccent {
+  color: #4d7fec;
+}

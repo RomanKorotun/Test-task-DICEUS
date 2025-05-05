@@ -1,0 +1,90 @@
+.wrapperBlocks {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.block {
+  padding: 20px;
+  background-color: #1e2130;
+  border-radius: 16px;
+  border: 1px solid #333b52;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 190px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.content {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.secondContent {
+  color: #7d7f8a;
+}
+
+.wrapperBlocks > .block:nth-child(-n + 3) {
+  flex: 0 0 280px;
+}
+
+.wrapperBlocks > .block:last-child {
+  flex: 1;
+}
+
+@media (max-width: 1280px) {
+  .wrapperBlocks > .block:last-child {
+    flex: 0 0 372px;
+  }
+}
+
+.chartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+  width: 100%;
+  max-width: 800px;
+}
+
+.chartRow {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.barWrapper {
+  flex: 0 0 55%;
+  height: 20px;
+  background-color: #323851;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.bar {
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(to right, #2c3e50, #4770ca);
+}
+
+.barLabel {
+  flex: 1;
+  font-size: 13px;
+  white-space: nowrap;
+  margin-left: 12px;
+  text-align: left;
+  min-width: 150px;
+  max-width: 200px;
+}

@@ -1,0 +1,47 @@
+.wrapperBlocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.block {
+  padding: 20px;
+  background-color: #262a3c;
+  border-radius: 16px;
+  flex-basis: calc((100% - 12px * 3) / 4);
+}
+
+@media screen and (min-width: 768px) and ((max-width: 870px)) {
+  .block {
+    flex-basis: calc((100% - 12px) / 2);
+  }
+}
+
+@media screen and (min-width: 870px) and ((max-width: 1200px)) {
+  .block {
+    flex-basis: calc((100% - 12px * 2) / 3);
+  }
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 2px;
+}
+
+.line {
+  font-size: 20px;
+}
+
+.renevalPremium {
+  font-size: 14px;
+  color: #888a95;
+  margin-bottom: 5px;
+}
+
+.effDatee {
+  font-size: 14px;
+  color: #888a95;
+}

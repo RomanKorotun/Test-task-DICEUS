@@ -1,0 +1,45 @@
+.wrapperMarket {
+  display: inline-block;
+  background-color: #1f2232;
+  padding: 20px;
+  border-radius: 16px;
+  width: 225px;
+}
+
+.block {
+  border-bottom: 1px solid #2b3243;
+  font-size: 13px;
+  display: flex;
+  gap: 6px;
+  line-height: 1.4;
+  margin-bottom: 4px;
+  padding: 3px;
+}
+
+.block:last-child {
+  margin-bottom: 0;
+}
+
+.status1 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ab4440;
+  flex-shrink: 0;
+}
+
+.status2 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #f6d473;
+  flex-shrink: 0;
+}
+
+.status3 {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #263fa9;
+  flex-shrink: 0;
+}

@@ -1,0 +1,24 @@
+.filersWrapper {
+  margin-bottom: 10px;
+  display: flex;
+  gap: 5px;
+}
+
+.filter {
+  padding: 5px 15px;
+  border-radius: 30px;
+  background-color: #0d0f16;
+  color: #c6c9d2;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms;
+}
+
+.filter:hover {
+  background-color: #4e80ee;
+}
+
+.activeFilter {
+  background-color: #4e80ee;
+}

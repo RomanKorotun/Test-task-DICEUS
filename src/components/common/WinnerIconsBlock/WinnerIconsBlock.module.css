@@ -1,0 +1,11 @@
+.winnerIconsBlock {
+  display: flex;
+  gap: 3px;
+}
+
+.winnerIcons {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #4875d6;
+}

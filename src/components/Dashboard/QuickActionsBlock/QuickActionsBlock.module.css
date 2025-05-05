@@ -1,0 +1,25 @@
+.wrapperActions {
+  display: inline-block;
+  background-color: #1f2232;
+  padding: 20px;
+  border-radius: 16px;
+  width: 225px;
+}
+
+.wrapperButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-self: self-start;
+}
+
+.button {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 30px;
+  font-size: 12px;
+  background-color: #4e80ee;
+  color: #e9effd;
+  border: none;
+  cursor: pointer;
+}

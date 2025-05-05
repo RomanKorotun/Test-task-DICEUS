@@ -1,0 +1,21 @@
+.menu {
+  display: flex;
+  gap: 5px;
+  font-size: 13px;
+}
+
+.menuItem {
+  padding: 3px 24px;
+  border: none;
+  border-radius: 30px;
+  border: 1px solid #4e80ee;
+  color: #4e80ee;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 250ms, background-color 250ms;
+}
+
+.menuItem:hover {
+  color: #ffffff;
+  background-color: #4e80ee;
+}

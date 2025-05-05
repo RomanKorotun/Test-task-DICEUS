@@ -1,0 +1,31 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 13px;
+}
+
+.navItem {
+  background-color: #0d0f16;
+  padding: 12px;
+  border: 1px solid #333b51;
+  border-radius: 30px;
+  transition: background-color 250ms;
+  cursor: pointer;
+}
+
+.navItem:hover,
+.navItem:focus {
+  background-color: #4e80ee;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #4e80ee;
+}

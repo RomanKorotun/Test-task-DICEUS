@@ -1,0 +1,7 @@
+.block {
+  padding: 20px;
+  background-color: #1f2232;
+  display: block;
+  border-radius: 16px;
+  overflow-x: auto;
+}

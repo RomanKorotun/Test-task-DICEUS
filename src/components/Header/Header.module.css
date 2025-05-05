@@ -1,0 +1,34 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #333b52;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1100px) {
+  .wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+.gretting {
+  font-size: 26px;
+}
+
+.userControls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.userMenu {
+  border-radius: 50%;
+  background-color: #1e2e70;
+  padding: 10px;
+}

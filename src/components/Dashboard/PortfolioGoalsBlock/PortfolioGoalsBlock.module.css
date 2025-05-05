@@ -1,0 +1,181 @@
+.wrapperPortfolio {
+  display: inline-block;
+  background-color: #1f2232;
+  padding: 20px;
+  border-radius: 16px;
+  width: 225px;
+}
+
+.subTitle_1 {
+  text-transform: uppercase;
+  color: #97a2b6;
+  font-size: 10px;
+  margin-bottom: 32px;
+}
+
+.block {
+  margin-bottom: 38px;
+}
+
+.block:last-child {
+  margin-bottom: 0;
+}
+
+.progressIndicator1 {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  border-radius: 16px;
+  background: linear-gradient(
+    to right,
+    #62b67e 0%,
+    #62b67e 35%,
+    #f6d473 35%,
+    #f6d473 60%,
+    #bb2719 60%
+  );
+}
+
+.progressIndicator1TopBlock {
+  position: absolute;
+  top: -26px;
+  left: 75px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progressIndicator1ValueTop {
+  font-size: 9px;
+  color: #5b6274;
+}
+
+.progressIndicatorIconTop {
+  fill: #4e80ee;
+  stroke: #4e80ee;
+}
+
+.progressIndicator1ValueMiddle {
+  position: absolute;
+  top: 4px;
+  left: 45px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.progressIndicator1BottomBlock {
+  position: absolute;
+  top: 19px;
+  left: 33px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progressIndicatorIconBottom {
+  fill: #62b67e;
+  stroke: #62b67e;
+}
+
+.progressIndicator1ValueBottom {
+  font-size: 9px;
+  color: #62b67e;
+}
+
+.progressIndicator2 {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  border-radius: 16px;
+  background: linear-gradient(
+    to right,
+    #bb2719 0%,
+    #bb2719 15%,
+    #f6d473 15%,
+    #f6d473 50%,
+    #62b67e 50%,
+    #62b67e 65%,
+    #f6d473 65%
+  );
+}
+
+.progressIndicator2ValueMiddle {
+  position: absolute;
+  top: 4px;
+  left: 95px;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.progressIndicator2ValueTop {
+  font-size: 9px;
+  position: absolute;
+  top: -18px;
+  left: 85px;
+  color: #5b6274;
+}
+
+.progressIndicator2BottomBlock {
+  position: absolute;
+  top: 19px;
+  left: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progressIndicator2ValueBottom {
+  font-size: 10px;
+  color: #62b67e;
+  text-transform: uppercase;
+}
+
+.subTitle_2 {
+  text-transform: uppercase;
+  color: #97a2b6;
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.wrapperContent {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.progressIndicator3 {
+  position: relative;
+  width: 100%;
+  height: 20px;
+  background-color: #323851;
+  border-radius: 16px;
+}
+
+.progressFill3 {
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to right, #1a2b6c, #4c7ce5);
+  border-top-right-radius: 16px;
+  border-bottom-right-radius: 16px;
+}
+
+.progressIndicator3ValueMiddle {
+  position: absolute;
+  top: 4px;
+  left: 36px;
+  font-size: 11px;
+  font-weight: bold;
+}
+
+.progressIndicator3ValueBottom {
+  position: absolute;
+  top: 21px;
+  left: 60px;
+  font-size: 10px;
+  color: #5b6274;
+  font-weight: 700;
+}
+
+.rightContent {
+  font-size: 12px;
+}

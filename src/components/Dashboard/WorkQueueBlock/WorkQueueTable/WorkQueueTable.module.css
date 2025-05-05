@@ -1,0 +1,45 @@
+.table {
+  white-space: nowrap;
+}
+
+.organizatorCell {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.initials {
+  border-radius: 50%;
+  background-color: #253164;
+  padding: 8px;
+}
+
+.line {
+  color: #97a2b6;
+  font-size: 12px;
+}
+
+.statusCell {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+}
+
+.status {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.statusNew {
+  background-color: #4e80ee;
+}
+
+.statusPending {
+  background-color: #f6d473;
+}
+
+.statusCompleted {
+  background-color: #62b67e;
+}

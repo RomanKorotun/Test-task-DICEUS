@@ -1,0 +1,45 @@
+.wrapper {
+  display: inline-flex;
+  align-items: center;
+  padding: 30px 50px 60px 50px;
+  background-color: #1e2130;
+  border-radius: 16px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.label {
+  position: absolute;
+  top: 36px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 15px;
+  color: #e5e7ea;
+  white-space: nowrap;
+  font-size: 17px;
+}
+
+.line {
+  display: block;
+  width: 10ch;
+  height: 2px;
+  border-top: 2px dashed #61b57d;
+  align-self: center;
+  position: relative;
+  transform: translateY(50%);
+}
+
+.iconWhite {
+  border-color: #686972;
+}
+
+.lineWhite {
+  border-top: 2px dashed #686972;
+}

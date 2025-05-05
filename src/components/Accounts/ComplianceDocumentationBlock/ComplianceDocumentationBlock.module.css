@@ -1,0 +1,32 @@
+.wrapper {
+  display: flex;
+  gap: 40px;
+  padding: 30px;
+  background-color: #1e2130;
+  border-radius: 12px;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link {
+  margin-bottom: 13px;
+}
+
+.leftColumn,
+.rightColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #ffffff;
+}

@@ -1,0 +1,37 @@
+.wrapper {
+  border-radius: 16px;
+  border: 1px solid #f6d473;
+  padding: 16px;
+  background-color: #1f2232;
+}
+
+.wrapperTitle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.title {
+  font-size: 18px;
+  color: #f6d473;
+}
+
+.blocksContainer {
+  display: flex;
+  gap: 26px;
+}
+
+.firstItem {
+  font-size: 14px;
+  color: #b3b5bc;
+}
+
+.status {
+  text-transform: capitalize;
+}
+
+.secondItem {
+  font-size: 11px;
+  color: #626471;
+}

@@ -1,0 +1,32 @@
+.accountName {
+  font-size: 28px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.accountInfo {
+  display: flex;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.address {
+  width: 187px;
+}
+
+.block {
+  width: 130px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: 11px;
+  color: #97a2b6;
+  font-weight: 600;
+}
+
+.delimiter {
+  width: 1px;
+  height: 28px;
+  background-color: #333b52;
+}
