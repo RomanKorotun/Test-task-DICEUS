@@ -1,0 +1,10 @@
+.link {
+  background-color: #3e6257;
+  color: #e5e7ea;
+  padding: 5px 10px;
+  border-radius: 30px;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}

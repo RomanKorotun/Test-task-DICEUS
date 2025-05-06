@@ -5,6 +5,7 @@ import { PerfomanceMetricsBlock } from "@/components/Accounts/PerfomanceMetricsB
 import { Policies1Block } from "@/components/Accounts/Policies1Block/Policies1Block";
 import { Policies2Block } from "@/components/Accounts/Policies2Block/Policies2Block";
 import styles from "@/app/accounts/page.module.css";
+import { CommunicationBlock } from "@/components/Accounts/CommunicationBlock/CommunicationBlock";
 
 export default function Accounts() {
   return (
@@ -32,6 +33,11 @@ export default function Accounts() {
               <ComplianceDocumentationBlock />
             </div>
           </div>
+        </div>
+      </section>
+      <section className="section">
+        <div className="container">
+          <CommunicationBlock />
         </div>
       </section>
       <section className="section">
